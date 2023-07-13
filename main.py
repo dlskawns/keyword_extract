@@ -3,7 +3,7 @@ from keywords_Extraction import Keywords_frequency
 import os
 import time
 # os.environ['JAVA_HOME'] =r'/Users/codestates/Downloads/jdk-20.0.1/bin'
-
+ 
 def main():
     data_path = '/Users/codestates/Desktop/keybert/testdata.txt'
     data = []

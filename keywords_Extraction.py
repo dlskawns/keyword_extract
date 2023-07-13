@@ -4,7 +4,7 @@ import pandas as pd
 import re
 from collections import Counter
 from konlpy.tag import Okt
-import time
+import time 
 from tqdm.notebook import tqdm
 okt = Okt()
 class Keywords_frequency():
