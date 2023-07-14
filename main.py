@@ -5,7 +5,8 @@ import time
 # os.environ['JAVA_HOME'] =r'/Users/codestates/Downloads/jdk-20.0.1/bin'
 
 def main():
-    data_path = '/Users/codestates/Desktop/keybert/testdata.txt'
+    # 데이터 경로 받아오기 > 이 부분은 유저의 '기록'데이터를 가져와 읽도록 하면됨
+    data_path = 'testdata.txt'
     data = []
     with open(data_path) as f:
         data_all = f.readlines()
