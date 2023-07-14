@@ -10,7 +10,6 @@ from tqdm.notebook import tqdm
 mecab = Mecab()
 class Keywords_frequency():
     def __init__(self):
-        # self.text = text
       
         self.con = re.compile(r'[^ A-Za-z0-9가-힣+]')
 

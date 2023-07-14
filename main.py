@@ -13,7 +13,12 @@ def main():
         for row in data_all:
             data.append(row)
     data = ','.join(data)
+    
+    
+    # 키워드 함수 인스턴스 생성
     keyword_func = Keywords_frequency()
+    
+    # 키워드 추출 로직 구현 > Default 3으로 진행 
     top_keywords = keyword_func.token_counter(data, 3)
     print(top_keywords)
 
